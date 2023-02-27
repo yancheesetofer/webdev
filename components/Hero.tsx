@@ -2,16 +2,13 @@ import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
+import Image from "next/image";
 
 type Props = {};
 
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
-    words: [
-      "Hi, I'm Yan Christofer.",
-      "Lifetime-Learner.tsx",
-      "<AspiringInfosecEngineer />",
-    ],
+    words: ["Hi, I'm Yan Christofer", "Lifetime-Learner.tsx", "<Believer />"],
     loop: true,
     delaySpeed: 1800,
   });
@@ -24,7 +21,7 @@ export default function Hero({}: Props) {
       <img
         className="relative rounded-full h-32 w-32 mx-auto
         object-cover"
-        src="./profile.png"
+        src="https://media.wired.com/photos/5cbe4d8fbad1452e4c6ce4b3/125:94/w_2375,h_1786,c_limit/ElonMusk-tranpso-final-1130611572.jpg"
         alt="lol"
       />
       <div className="z-20">
