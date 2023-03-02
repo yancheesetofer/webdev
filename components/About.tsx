@@ -9,13 +9,9 @@ function About({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2 }}
-      className="flex flex-col relative h-screen text-center
-      md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
-    >
+      className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
       <h3
-        className="absolute top-24 uppercase tracking-[20px]
-      text-gray-500 text-2xl"
-      >
+        className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
 
@@ -32,8 +28,7 @@ function About({}: Props) {
           x: 0,
         }}
         src="https://static01.nyt.com/images/2022/04/22/business/25musk-twitter-what-musk-wants/21economy-briefing-musk-sec-mediumSquareAt3X.jpg"
-        className="-mb-20 md:mb-20 flex-shrink-0 w-56 h-56 rounded-full
-        object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        className="-mb-20 md:mb-20 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
       />
 
       <div className="space-y-10 px-0 md:px-10">
